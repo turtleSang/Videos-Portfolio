@@ -12,7 +12,7 @@ const config: Config = {
       colors: {
         gray: "#858585",
         white: {
-          opacity: "rgb(255 255 255 / 73%)"
+          opacity: "rgb(255 255 255 / 93%)"
         },
       }
     },

@@ -1,3 +1,7 @@
+import { listItem, TypeContent } from "@/helper/constance";
+import ListItem from "@/layout/list-items";
+
 export default function Page() {
-  return <h1>Page editor</h1>;
+  let listEditor = listItem.filter((val) => val.type === TypeContent.editor);
+  return <ListItem listItem={listEditor} />;
 }

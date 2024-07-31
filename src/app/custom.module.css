@@ -1,0 +1,7 @@
+.item img {
+    transition-duration: 500ms;
+}
+
+.item:hover img {
+    filter: grayscale(70%);
+}
